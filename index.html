@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <article data-testid="test-profile-card">
+
+            <figure>
+                <img 
+                    data-testid="test-user-avatar"
+                    src="https://ca.slack-edge.com/T09AMR8A9C3-U09LE1181MH-c225cdd976e3-72"
+                    alt="A Profile picture of gbolahan olanrewaju"
+                >
+            </figure>
+
+            <div class="user-info">
+                <h2 data-testid="test-user-name">gbolahan olanrewaju</h2>
+
+                <p data-testid="test-user-bio">
+                    A passionate frontend developer building accessible and responsive web experiences. I love turning complex problems into
+                    simple, beautiful, and intuitive designs.
+                </p>
+
+                <p>
+                    Current UTC Time (ms): <span data-testid="test-user-time"></span>
+                </p>
+
+                <ul data-testid="test-user-social-links">
+
+                    <li>
+                        <a
+                            href="https://github.com/gbollybambam"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-testid="test-user-social-github">
+                            GitHub
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="https://www.linkedin.com/in/gbolahan-olanrewaju-672880261/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-testid="test-user-social-linkedin">
+                            LinkedIn
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <section class="user-details">
+                <h3>Hobbies</h3>
+                <ul data-testid="test-user-hobbies"> 
+                    <li>Coding</li>
+                    <li>Photography</li>
+                    <li>Evangelism</li>
+                    <li>Prayer and Bible Study</li>
+                </ul>
+            </section>
+
+            <section class="user-details">
+                <h3>Dislikes</h3>
+                <ul data-testid="test-user-dislikes">
+                    <li>Slow Wi-Fi</li>
+                    <li>Unsemantic HTML</li>
+                    <li>Bugs in production</li>
+                </ul>
+            </section>
+
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
