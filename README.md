@@ -16,5 +16,5 @@ You can view the live project here: https://imaginative-marzipan-97aae4.netlify.
 ## How to Run Locally
 
 1.  Clone the repository: `git clone https://github.com/gbollybambam/hng-profile-card-task1-frontend.git`
-2.  Navigate to the project directory: `cd hng-profile-card`
+2.  Navigate to the project directory: `cd hng-profile-card-task1-frontend`
 3.  Open the `index.html` file in your browser.
