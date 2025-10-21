@@ -4,7 +4,7 @@ This project is a multi-page interactive website built as a submission for the H
 
 ## Live Demo 🚀
 
-**[View the live project here](https://gilded-florentine-f021e5.netlify.app/)**
+**[View the live project here](https://stately-syrniki-01c502.netlify.app/)**
 
 
 ---
